@@ -1,0 +1,39 @@
+body {
+    background-color: #f4f4f4;
+}
+p{
+    color: darkred;
+}
+form {
+    text-align: center;
+}
+table{
+    margin: auto;
+    background-color: pink;
+    color: navy;
+}
+
+table input[type="text"],
+table textarea,
+table select {
+    background-color: lightblue;
+    color: darkred;
+    border: 1px solid #b0bec5;
+}
+
+table input[type="submit"] {
+    background-color: plum;
+    color: #ffffff;
+}
+
+table input[type="submit"]:hover {
+    background-color: palevioletred;
+}
+
+input[type="radio"] {
+    accent-color: lightgreen;
+    cursor: pointer;
+}
+input[type="radio"]:hover {
+    accent-color: bisque;
+}

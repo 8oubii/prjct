@@ -1,0 +1,83 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9; /* Subtle light gray for a clean background */
+    color: #333; /* Neutral text color */
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(90deg, #8b0000, #228b22); /* Dark red to forest green gradient */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  header img#logo {
+    display: block;
+    margin: 0 auto 1rem; /* Center logo with spacing */
+    width: 80px; /* Set a consistent size for the logo */
+    height: auto;
+  }
+  
+  /* Quote Styling */
+  p {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #555; /* Slightly muted gray for elegance */
+    text-align: center;
+  }
+  
+  /* Image Styling */
+  div img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%; /* Make it responsive */
+    height: auto;
+  }
+  
+  /* Links Styling */
+  div a {
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: #006400; /* Forest green */
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  div a:hover {
+    background-color: #004d00; /* Darker forest green on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Center Align Styling */
+  div {
+    text-align: center;
+    margin: 2rem auto;
+  }
+  
+  /* Footer Placeholder (if needed later) */
+  footer {
+    text-align: center;
+    background: #8b0000; /* Match with header */
+    color: white;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+  }
+  

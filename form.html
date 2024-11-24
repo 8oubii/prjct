@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="form.css">
+    <title>Form Example</title>
+</head>
+<body>
+    <form>
+        <table border="0">
+            <tr> 
+                <td>Nom</td>  
+                <td><input type="text" name="nom"></td> 
+            </tr>
+            <tr>
+                <td>Prénom</td>  
+                <td><input type="text" name="prenom"></td> 
+            </tr> 
+            <tr>
+                <td>Sexe</td>  
+                <td>
+                    <p>Homme:<input type="radio" name="sexe" value="M"></p>
+                    <p>Femme: <input type="radio" name="sexe" value="F"></p>
+                </td> 
+            </tr> 
+            <tr>  
+                <td>Fonction</td> 
+                <td>
+                    <select name="fonction">
+                        <option value="enseignant">Enseignant</option>
+                        <option value="etudiant">Etudiant</option>
+                        <option value="ingenieur">Ingénieur</option>
+                        <option value="retraite">Retraité</option>
+                        <option value="mechni fehem hata chy">Mechni fehem hata chy</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </td> 
+            </tr> 
+            <tr>  
+                <td>Commentaires</td> 
+                <td><textarea rows="3" name="commentaires"></textarea></td> 
+            </tr> 
+            <tr>  
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Envoyer">
+                </td> 
+            </tr> 
+        </table> 
+    </form>
+</body>
+</html>

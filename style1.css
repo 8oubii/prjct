@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.video {
+    flex: 1;
+}
+
+.text {
+    flex: 1;
+}
+
+h1 {
+    color: red;
+    font-size: 45px;
+}
+
+h2 {
+    color: green;
+    font-size: 45px;
+}
+
+h3 {
+    color: black;
+    font-size: 45px;
+}

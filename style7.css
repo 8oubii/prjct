@@ -1,0 +1,104 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf8f8; /* Subtle baby pink */
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(90deg, #8b0000, #002b5b); /* Dark Red to Navy Blue Gradient */
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  /* Container Styling */
+  .container {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 2rem;
+    align-items: start;
+  }
+  
+  /* Site Frame Styling */
+  .site-frame {
+    background: #ffffff;
+    border: 1px solid #d4afaf; /* Soft pink border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .site-frame:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Site Info Styling */
+  .site-info {
+    padding: 1.5rem;
+  }
+  
+  .site-info h3 {
+    font-size: 1.5rem;
+    color: #002b5b; /* Navy Blue */
+    margin: 0 0 0.5rem;
+  }
+  
+  .site-info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4f4f4f; /* Neutral Gray */
+    margin: 0 0 1rem;
+  }
+  
+  .site-info a {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: #006400; /* Forest Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.2s ease;
+  }
+  
+  .site-info a:hover {
+    background: #004d00; /* Darker Forest Green */
+  }
+  
+  /* Iframe Styling */
+  iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    background: #8b0000; /* Dark Red */
+    color: #fdf8f8; /* Subtle Baby Pink */
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
